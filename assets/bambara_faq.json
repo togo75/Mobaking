@@ -1,0 +1,722 @@
+[
+  {
+    "question": "Sɛbɛn jumɛnw de laɲininen don walasa n ka bugunnatigɛ ka lakodɔn bↄlↄsira fɛ?",
+    "answer": "’I bɛ apilikasↄn ta bↄlↄlↄsira fɛ, i bɛ sↄrↄ k’i bolo digi ‘’tↄgↄsɛbɛn’’ kan ani ka bilasiraliw labato n’o ye k’i yɛrɛ ka telefↄninimↄrↄ an’i ka kunnafoni nafamaw sɛbɛn.,’’\nWalasa i ka kↄnti ka lakodↄn, i ka kan ka i ka bugunnatigɛsɛbɛn ɲↄgↄnna wɛrɛ (karadantɛ walima Taamasɛbɛn) di ni k’o fara i dagayↄrↄ sɛmɛntiyalisɛbɛn kan min dilantuma tɛ tɛmɛ kalo saba kan.,’",
+    "topic": "account",
+    "category": "required_docs"
+  },
+  {
+    "question": "N bɛ se ka kɔnti dayɛlɛ cogo di n ka apilikasↄn kan ?",
+    "answer": "’I bɛ apilikasↄn ta bↄlↄlↄsira fɛ, i bɛ sↄrↄ k’i bolo digi ‘’tↄgↄsɛbɛn’’ kan ani ka bilasiraliw labato n’o ye k’i yɛrɛ ka telefↄninimↄrↄ an’i ka kunnafoni nafamaw sɛbɛn.,’’\n,",
+    "topic": "account",
+    "category": "account_opening"
+  },
+  {
+    "question": "Kɔnti labaloli musaka ye joli ye kalo la ?",
+    "answer": "‘’Kↄnti gansan labaarali koɲɛw bɛɛ ye fu ye, musaka fosi tɛ tigɛ i ka wari la a kunkↄrↄ kalo la.,’’",
+    "topic": "account",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Mun ka kan ka kɛ ni n ma se ka n sɔgɔ n ka bɔlɔlɔsira kɔnti la ?",
+    "answer": "‘’A jateminɛ n’i sↄgↄlen don bↄlↄsira kan wa i ka baara kɛ ni apilikasↄn laban fana ye. Ni gɛlɛya bɛ yen hali bi, a ɲini ka baara kɛ ni nin kɛcogo in ye ‘’N ɲinɛna n ka gundolataamasiyɛn kↄ’’.",
+    "topic": "account",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Nafa jumɛnw bɛ bankikoɲɛw ɲɛnaboli la bɔlɔlɔsira fɛ ?",
+    "answer": "‘’Kↄnti dↄ bɛ se k’aw dɛmɛ k’aw ka warikomagow ɲɛnabↄ su ni tile waati bɛɛ kↄnↄ, k’aw fana ka waricikomagow ɲɛnabↄ yↄrↄnin kelen ani ka se ka jurumisɛnninw sↄrↄ teliya la n’aw ka telefↄniw ye.,’’",
+    "topic": "account",
+    "category": "general_info"
+  },
+  {
+    "question": "Sɛbɛn jumɛnw ka kan ka ɲini walasa dɔ ka fara n ka nafolo marata hakɛ kan?",
+    "answer": "’Walasa k’aw ka wari bilataw hahɛ dantigɛlenw tɛmɛ, O la, a bɛ se ka wajibiya i kan i k’i ka sↄrↄ sɛmɛntiyalisɛbɛn walima i k’i ka jagokɛgafe jira an ka baarada la min ɲɛsinnen bɛ kow taabolo ɲuman kↄlↄsili ma.,’",
+    "topic": "mobile_money",
+    "category": "required_docs"
+  },
+  {
+    "question": "N bɛ se ka n ka warilabaarafɛɛrɛ sigi senkan cogo di bɔlɔlɔsira sanfɛ?",
+    "answer": "‘’A labaarali bɛ daminɛ yↄrↄnin kelen i ka wari bilako fↄlↄ senfɛ, aw tilalen kↄ aw ka telefↄninimↄrↄ n’aw ka banki kↄnti donni na ɲↄgↄn na.,’’,",
+    "topic": "mobile_money",
+    "category": "account_opening"
+  },
+  {
+    "question": "Musaka joli bɛ sara wari cili la ɲɛgɛjuruciso wɛrɛ ka sira fɛ?",
+    "answer": "‘’Warici min bɛ kɛ nɛgɛjurucisow ni ɲↄgↄn cɛ, kɛmɛ kɛmɛ sara la, sariya b’a ɲini ka 1 (1%)  tigɛ ka bↄ aw ka waricita la.,’’",
+    "topic": "mobile_money",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Munna n ka bↄlↄlↄsira waricifɛɛrɛ lajↄlen don fↄlↄ ?",
+    "answer": "‘’Aw ka waricilen bɛ se ka dulon, ka ban ka se a tigi ma, k’a sababu kɛ wari bɛ ci mↄgↄ min ma, o ka nɛgɛjuruciso bↄlↄlↄsira basigibaliya ye.\nA ko ladilanni yↄrↄnin kelen o kuntaala bɛ se ka sanga 30 sↄrↄ.’’",
+    "topic": "mobile_money",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Bↄlↄlↄsira waricifɛɛrɛ labaaracogo ɲɛfↄ.",
+    "answer": "‘’Bↄlↄlↄsanfɛwariko bɛ se k’aw ka warijɛ yɛlɛma k’a kɛ wari ye min bɛ mara aw kun telefↄniw kↄnↄ walasa aw ka se k’aw ka saraliw kɛ walima ka wari ci bↄlↄlↄsiraw fɛ.,’’",
+    "topic": "mobile_money",
+    "category": "general_info"
+  },
+  {
+    "question": "Sɛbɛn jumɛnw b’a lajɛya banki yɔrɔ ko ne ni sojↄjuru sↄrↄli ka kan ?",
+    "answer": "’Aw ka kan ka sɛbɛnw ɲini i n’a fↄ aw ka kalosabalaban sarakɛsɛbɛn ni baara bɛnkansɛbɛn ani banki ka kalowↄↄrↄlaban jateminɛsɛbɛn.,’’",
+    "topic": "loans_and_credit",
+    "category": "required_docs"
+  },
+  {
+    "question": "Walasa k’a ka juru fↄlↄ sↄrↄ, jurumisɛnni tabaga ka kan ka tɛmɛ sira jumɛnw fɛ?",
+    "answer": "A’ ye ta juruko ɲɛniniyↄrↄ la apilikasↄn kↄnↄ, aw mago bɛ wari hakɛ min na, aw b’o sugandi, ka sↄrↄ k’a sↄn sariaw bɛɛ ma walasa aw k’aw ka nafolo sↄrↄ.,’’",
+    "topic": "loans_and_credit",
+    "category": "account_opening"
+  },
+  {
+    "question": "Tↄnↄ hakɛ jumɛn de bɛ ɲini banki fɛ magoɲɛjuruw tali la ?",
+    "answer": "‘’Tↄnↄ min ka kan ka ɲini aw kun san kↄnↄ, o hakɛ bɛrɛ bɛnnen don ka d’aw ka jurutata hakɛ kan nka kɛmɛ kɛmɛ sara la, a b’a ta 7 (7%) la ka taa 12 (12%) la.,’’",
+    "topic": "loans_and_credit",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Munna banki ma sↄn n ka juruɲinisɛbɛn na ?",
+    "answer": "‘’Ni ban kɛra aw ka juruko laɲini ma, o b’a jira k’aw ka jurutata sarali fanga t’aw la walima k’aw ka juru laban saracogo ma bↄ a sira fɛ.,’’",
+    "topic": "loans_and_credit",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Banki bɛ wari hakɛ min labila i ye juruta kama tuma bɛɛ, o bɛ wele cogo di ?",
+    "answer": "‘’Wari lamaralen de b’aw ɲɛ yen kudayi aw bɛ se ka juruta min na ka tila k’a sara cogoya min y’aw diya, tↄnↄ hakɛ bɛrɛ bɛnnen don n’aw ka jurutata hakɛ ye.,’’",
+    "topic": "loans_and_credit",
+    "category": "general_info"
+  },
+  {
+    "question": "N bugunnatigɛ bɛ se ka lakodↄn cogo di walasa n ka gundolataamasiɲɛ bɛ se ka lasegin a cogoya kↄrↄ la ?",
+    "answer": "‘’Aw ka kan ka n’aw yɛrɛ jira n’aw ka karadantɛ lakika ye walima aw ka tɛmɛ n’an ka ɲɛda lakodↄncogo sira ye min kɛ ni apilikasↄn ye.,’’",
+    "topic": "security_and_limits",
+    "category": "required_docs"
+  },
+  {
+    "question": "N bugunnatigɛli bɛ se ka kɛ cogoya fila la cogo di ?",
+    "answer": "‘’A’ ye taa lakana sabatiyↄrↄ la apilikasↄn kↄnↄ, aw ka ‘2FA’ sugandi walasa k’aw ka kↄnti ni apilikasↄn dↄ bolo di ɲↄgↄn ma min ka baara bɛnnen don bugunnatigɛli ma walima aw ka se ka gundolataamasiɲɛw kunnafoni sↄrↄ.,’’",
+    "topic": "security_and_limits",
+    "category": "account_opening"
+  },
+  {
+    "question": "Yali musaka bɛ bↄ ni n b’a fɛ ka dↄ fara n ka wari labↄta hakɛ kan wa ?",
+    "answer": "‘’Aw ka wari tata walima bilata hakɛ tɛ tɛmɛ min kan, o hakɛ yɛlɛmani ye fu ye wa o baara kɛli yamaruya b’aw bolo waati bɛɛ kiliyan ka yↄrↄ kɛrɛnkɛrɛnnen na apilikasↄn kↄnↄ.,’’",
+    "topic": "security_and_limits",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "N ka kan ka mun kɛ ni n ye walejugu dↄ kↄlↄsi n ka kↄnti sanfɛ ?",
+    "answer": "‘’A’ y’aw ka kariti walima aw ka baaraw bɛɛ lajↄ joona apilikasↄn kan, ka sↄrↄ k’an ka baarakɛla dↄ wele joona min ka baara bɛnnen don kilyanw kunko ɲɛnabↄli ma n’aw ye walejugu fɛn o fɛn kↄlↄsi.,’’",
+    "topic": "security_and_limits",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Waricita dantigɛlen hakɛ bɛ dan joli la tile kↄnↄ ?",
+    "answer": "‘’Kↄnti sitandari wari tata dan ye d. 100 000 ye walasa k’aw ka nafolo kisi nsonyalikɛlaw tↄↄrↄ ma.,’’",
+    "topic": "security_and_limits",
+    "category": "general_info"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka kↄnti dayɛlɛ ni n ka bolifɛnboliyamaruyasɛbɛn ye wa ?",
+    "answer": "‘’Awↄ, bolifɛnboli yamaruyasɛbɛn  jatelen don i n’a fↄ bugunnatigɛsɛbɛn lakika baara bɛ se ka kɛ ni min ye nka a kana kɛ sɛbɛn ye min waati tɛmɛnen don.,’’",
+    "topic": "account",
+    "category": "required_docs"
+  },
+  {
+    "question": "Yali kↄnti kɛrɛnkɛrɛnnnen bɛ yen denmisɛnninw kama wa ?",
+    "answer": "‘’Awↄ, denmisɛnninw ka kↄnti fana bɛ yen min bɛ se ka dayɛlɛ denmisɛnnin bangebaga fɛ sariya ye min lakodↄn ani den ka wolosɛbɛn.,’’",
+    "topic": "account",
+    "category": "account_opening"
+  },
+  {
+    "question": "Banki bɛ kↄnti sɛgɛsɛgɛlisɛbɛn ci joli ?",
+    "answer": "‘’Kↄnti kunnafoniw sɛbɛnni ni k’o sɛnbɛnfura ci pↄsiti fɛ, o musaka bɛ taa d. 400 na a ci o ci, k’a sↄrↄ a PDƐFUlama cili ye fu ye bↄlↄlↄsira fɛ.,’’",
+    "topic": "account",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "N ka kↄnti sↄgↄlen bɛ n ka bↄlↄlↄsira batakiciladɛrɛsi min na, o bɛ falen cogo di ?",
+    "answer": "‘’A’ ye taa  aw ka apilikasↄn bugunnatigɛli koɲɛnabↄyↄrↄ la, aw k’aw bolo digi ‘’lasↄrↄlicogo kunnafoni’’ kan, aw ka sↄrↄ ka jateminɛ kɛ ƐSƐMƐSI/SMS ka jateminɛni kɛcogo la.,’’",
+    "topic": "account",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Danfara jumen bɛ banki ka kↄnti gansan n’a ka warilamarakↄnti cɛ ?",
+    "answer": "‘’Kↄnti gansan b’aw dɛmɛ k’aw ka tile waricimagow ɲɛnabↄ k’a sↄrↄ warilamara kↄnti bɛ tↄnↄ de lase aw ma waati kuntaala jan kↄnↄ.’’",
+    "topic": "account",
+    "category": "general_info"
+  },
+  {
+    "question": "N bɛ se ka n ka banki kↄnti datugu pewu cogo di ?",
+    "answer": "’Walasa k’aw ka kↄnti datugu, aw ka kan ka tɛmɛ apilikasↄn ka kumaɲↄgↄnyakɛyↄrↄ sira fɛ k’aw bolonↄ bila laɲini na, wa aw ka kan ka da a la fana ko wari fosi t’aw ka kↄnti kↄnↄ.,’’",
+    "topic": "account",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Yali sɛbɛn ka kan ka jira min b’a lajɛya ko n ni wari sↄrↄli ka kan min cira ka bↄ jamana wɛrɛ la wa?",
+    "answer": "‘’Ni wari fɛn o fɛn cir’aw ma min hakɛ ka ca ni d. 2 000 000 ye, aw ka wari bↄyↄrↄ ɲininkali bɛ se ka k’aw la an ka cakɛdaw fɛ.’’",
+    "topic": "mobile_money",
+    "category": "required_docs"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka bankikariti ni n ka bↄlↄlↄsira waricifɛɛrɛ  don ɲↄgↄn na wa ?",
+    "answer": "‘’Bↄlↄlↄsira waricifɛɛrɛko ɲɛɲiniyↄrↄ la apilikasↄn kↄnↄ, a’ ye ‘kariti ni kↄnti doncogo ɲↄgↄn na’’ sugandi, aw ka sↄrↄ k’aw ka kariti kunnafoniw sɛbɛn walasa aw kↄnti ka labalo teliya la.,’’",
+    "topic": "mobile_money",
+    "category": "account_opening"
+  },
+  {
+    "question": "Yali waricilen tali musaka ye joli ye baarakɛbaa dↄ fɛ yen ?",
+    "answer": "’’Wari labↄli an warilabↄyↄrↄw la, o musaka bɛ bↄ kɛmɛ kɛmɛ sara la 0,5 (0,5%) na ka taa 2 (2%) la ka kɛɲɛ n’aw ka wari tata hakɛ ye’’.,",
+    "topic": "mobile_money",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Munna kunnanfoni tɛ ci n ma wari bilalen kↄ ne walima mↄgↄ wɛrɛ kun ?",
+    "answer": "‘’O ju bɛ se ka bↄ baaraw cayali la bↄlↄlↄsira ZƐSIƐMU/ GSM sanfɛ.O la, a’ b’aw tilen ka waricikow jateminɛ kɛ joona apilikasↄn sanfɛ walasa k’a dↄn n’aw ka waricibaara latigɛra.,’’",
+    "topic": "mobile_money",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Yali ni fili donna wari cili la, fɛɛrɛ bɛ yen k’a ko lasegin kɛbali ye wa ?",
+    "answer": "‘’A’ ye wari ci mↄgↄ min ma, n’a y’a sↄrↄ o tigi ma se ka wari labↄ fↄlↄ, aw bɛ se ka laɲini kɛ ka wari cili lajↄ pewu o yↄrↄnin bɛɛ la ni an ka kiliyanw kunko ɲɛnabↄbagaw ka dɛmɛ ye.,’’",
+    "topic": "mobile_money",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Yali kↄfɛjamanaw bɛ wari labaara ni bↄlↄlↄsira waricifɛɛrɛ ye wa ?",
+    "answer": "‘’Jɛɲↄgↄnyabaara b’an ni kɛrɛfɛjamana fɛn o fɛn cɛ, fɛɛrɛ in latigɛlen don yen bɛɛ la.,’’",
+    "topic": "mobile_money",
+    "category": "general_info"
+  },
+  {
+    "question": "Yali n ka kan ka baaraseereyasɛbɛn di walasa ka se ka jurumisɛnnni sↄrↄ wa ?",
+    "answer": "‘’Ayi, jurumisɛnnin minnu bɛ sↄrↄ yↄrↄnin kelen, olu garanti y’aw ka waricikunnafoni kↄrↄw de ye apilikasↄn sanfɛ.,’’",
+    "topic": "loans_and_credit",
+    "category": "required_docs"
+  },
+  {
+    "question": "N bɛ se ka dↄ fara n ka jurutata hakɛ kan cogo di ?",
+    "answer": "‘’A’ ye baara kɛ n’an ye tuma bɛɛ ani k’aw ka juru sara a waati la walasa k’aw garijɛgɛw bonya wari hakɛ caman ka se ka labila aw ye.,’’",
+    "topic": "loans_and_credit",
+    "category": "account_opening"
+  },
+  {
+    "question": "Musaka jumɛn ka kan ka bↄ bankisɛbɛnko la walasa ka juru sↄrↄ mↄbilisan kama ?",
+    "answer": "‘’Sɛbɛnko musakaw ye aw ka juru hakɛ mumɛ kɛmɛ kɛmɛ sara la 1(1%) ye, o bɛ tigɛ ka bↄ aw ka wari mumɛ la a tatↄ aw fɛ.,’’",
+    "topic": "loans_and_credit",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka juru sara k’a ban yani a bantuma kofↄlen cɛ wa ?",
+    "answer": "‘’Awↄ, tuma bɛɛ, aw bɛ se k’aw ka juru bɛɛ lajɛlen sara k’a ban pewu yan’a banwaati cɛ k’a sↄrↄ a ma kɛ ni musakabↄ wɛrɛ ye.,’’",
+    "topic": "loans_and_credit",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Sɛbɛn jumɛnw ka kan ka ɲini walasa ka warimarakↄnti dↄ dayɛlɛ sisoko koɲɛw ɲɛnabↄli kama wa ?",
+    "answer": "‘’Aw ka kan ka karadantɛfoto n’aw dagayↄrↄ sɛmɛntiyalisɛbɛn di k’o fara awn ka wari kunfↄlↄ bilali kan, n’o hakɛ ye d.10 000.,’’",
+    "topic": "investments_and_savings",
+    "category": "required_docs"
+  },
+  {
+    "question": "Bↄlↄlↄsanfɛwarilamarakɛsunin bɛ se ka dilan cogo di n ka ko bolodalenw ɲɛnabↄli kama ?",
+    "answer": "‘’Warilamara koɲɛw ɲɛnabↄyↄrↄ kↄnↄ, aw b’aw bolo digi ‘Kuntilenna dↄ dilanni’ kan, a’ b’aw ka porozɛ tↄgↄ sɛbɛn ani ka wari hakɛ latigɛ min ka kan ka tigɛ aw kun yↄrↄnin kelen.,’’",
+    "topic": "investments_and_savings",
+    "category": "account_opening"
+  },
+  {
+    "question": "Warilamaralen banki la, bolo man kan ka se min ma, i ka sↄrↄta hakɛ ye joli ye o la san kↄnↄ ?",
+    "answer": "An ka kɔnti lasagolenw bɛ se ka nafa lase i ma min b’a daminɛ 3,5% na ka se 5% ma ka kɛɲɛ ni lasagoli kuntaala ye.",
+    "topic": "investments_and_savings",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "I bolo man kan ka se warilamaralen min ma banki la, i bɛ se k’o labↄ cogo k’a sↄrↄ a labↄwaati ma se ?",
+    "answer": "‘Ka kↄn ka wari labↄ, o bɛ se ka kɛ nka o bɛ se ka na ni tↄnↄw faralen ɲↄgↄn kan o hakɛ dↄgↄyali ye ka kɛɲɛ n’aw ka bɛnkansɛbɛnw kɛcogoya ye.’’",
+    "topic": "investments_and_savings",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Wari marata bilali tuma bɛɛ i ka bↄlↄlↄsanfɛwarilamarakɛsunin kↄnↄ yↄrↄnin kelen, o bɛ kɛ cogo di ?",
+    "answer": "‘’Nin cogoya in b’aw ka saraliw dakɛɲɛ ni dↄ farali ye a kan wa danfara in bɛ sin ka bila aw ka warilamara kↄnti kↄnↄ ten.,’’",
+    "topic": "investments_and_savings",
+    "category": "general_info"
+  },
+  {
+    "question": "Mun ka kan ka kɛ ni n ka telefↄni sonyara ?",
+    "answer": "‘’ N’aw ye walejugu dↄ kɛli jateminɛ dↄrↄn aw ka kↄnti sanfɛ, a’ y’an ka baarakɛlaw wele joona minnu ɲɛsinnen bɛ dɛmɛ donni ma kiliyanw ye walasa k’aw ka kↄnti lasↄrↄli lajↄ.,’",
+    "topic": "security_and_limits",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "N ma diɲɛ ni wari min saracogo ye ni banki sannikɛkariti ye, yali n bɛ se ka o wari laseginiko laɲini wa?",
+    "answer": "‘’Awↄ, tile 30 de b’aw bolo walasa  k’a jira k’aw ma sↄn wariciko dↄ ma min kɛra ni kariti ye ani ka dalilu jↄnjↄnw di ni sira ye min bɛ wele ko damakasiw kɛyↄrↄ.,’’",
+    "topic": "security_and_limits",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "N ka kariti biyometiriki kunnfoniw lakodↄnni bɛ se ka sigi senkan cogo di ?",
+    "answer": "‘’ Aw ka lakana koɲɛw ɲɛnabↄyↄrↄ la apilikasↄn kↄnↄ, a’ ye FasɛliDi/ FacelD walima aw k’aw bↄlↄnↄ ja labaarali bila senkan walasa k’aw ka waricimagow ɲɛnabↄli latigɛ k’a sↄrↄ aw m’aw ka kↄdi PINI don.",
+    "topic": "security_and_limits",
+    "category": "account_opening"
+  },
+  {
+    "question": "I ka sanni man kan ka tɛmɛ joli kan jamana kↄkan ni banki sannikɛkariti ye?",
+    "answer": "‘’Hakɛ dantigɛlen ye 1 000 000 ye dↄgↄkun o dↄgↄkun nka aw bɛ se ka k’aw ɲɛnata ye aw ka apilikasↄn kↄnↄ.,’’",
+    "topic": "security_and_limits",
+    "category": "general_info"
+  },
+  {
+    "question": "Denfaya porogaramu nafaw ye jumɛn ye ?",
+    "answer": "‘’N’aw jↄra aw teri kelen o kelen ka denfaya kↄrↄ ka kↄnti dayɛlɛ, aw bɛ se ka ladiya ni d. 200 sↄrↄli ye, min bɛ fara aw ka kↄntikↄnↄwari kan yↄrↄnin kelen.,’’",
+    "topic": "account",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka kↄnti telefↄninimↄrↄ falen wa ?",
+    "answer": "Telefↄninimↄrↄ falenni b’a wajibiya aw yɛrɛ ka na an ka cakɛda la n’aw ka bugunnatigɛsɛbɛn ye walasa k’aw ka kↄnti lasↄrↄli lakana.,’’",
+    "topic": "account",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Yali banki bɛ se ka n ka bugunnatigɛ sɛgɛsɛgɛlisɛbɛn di n ma wa ?",
+    "answer": "’A’ bɛ se k’aw ka RIBU/RIB ta sisan-sisan bↄlↄlↄsira kan ni PDƐFU/PDF cogoya ye, aw ka bisimilali ekaran kan n’aw bolo digili ye ‘’Kↄnti kunnafↄnni misɛnniw’’ kan.,’’",
+    "topic": "account",
+    "category": "general_info"
+  },
+  {
+    "question": "Yali ni n ye sanni kɛ bↄlↄlↄsira fɛ, n bɛ se ka sↄngↄnↄgↄya sↄrↄ wa ?",
+    "answer": "‘’Awↄ, jɛɲↄgↄnya b’an ni jagokɛla minnu cɛ olu dↄw bɛ se ka sↄngↄya kɛ aw ye aw ka telefↄninasanni kelen-kelenna bɛɛ la kɛmɛ kɛmɛ sara la fo 5 (5%).,’’\n\n,",
+    "topic": "mobile_money",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka kuranwariw sara ni bↄlↄlↄsira ye wa ?",
+    "answer": "A’ ye taa ‘’Sarali’’ yↄrↄ la, min bɛna feere k’aw ma, a’ y’o sugandi, a’ ye kↄntara nimↄrↄ sɛbɛn ani ka wari sarata hakɛ latigɛ n’aw ka gundolataamasiyɛn ye.,’’",
+    "topic": "merchants_and_payments",
+    "category": "general_info"
+  },
+  {
+    "question": "Sɛbɛn jumɛnw de b’a to n bɛ se ka kɛ jagokɛla yamaruyalen ye ?",
+    "answer": "‘’ Aw ka kan k’aw ka jagokɛgafe jira ka lokasↄn pilan ani  feerekɛyↄrↄ ɲɛmↄgↄ ka bugunnatigɛsɛbɛn.,’’",
+    "topic": "merchants_and_payments",
+    "category": "required_docs"
+  },
+  {
+    "question": "N bɛ se ka gundolataamasiɲɛ dilan n ka jago kama cogo di ?",
+    "answer": "’Bisinɛsi’’ kow ɲɛnabↄyↄrↄ kↄnↄ, a’ y’aw bolo digi ‘’N ka kiyɛri kↄdi (QR)’’ kan walasa k’a labↄ walima k’a ja kɛ sɛbɛnfura kan walasa aw ka kiliyanw bɛ se ka baara kɛ n’a ye.,’’",
+    "topic": "merchants_and_payments",
+    "category": "account_opening"
+  },
+  {
+    "question": "Yali musakabↄ bɛ sanni na ni gundolataamasiɲɛ ye wa ?",
+    "answer": "‘’Kiliyan ka sarali bɛɛ bɛ kɛ ni kiyɛri kↄdi (QR) ye fu ; kɛmɛ kɛmɛ sara la , feerekɛla bɛ1 (1%) de sara a warisↄrↄli kunkↄrↄ.,’’",
+    "topic": "merchants_and_payments",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Wari tigɛra ka bↄ sannikɛla kun nka ne m’a wari sↄrↄ hali bi, N ka kan ka mun kɛ ?",
+    "answer": "’A’ ye kibaruya kↄrↄw lajɛ ‘Jagokɛla ka warilabaara koɲɛw ɲɛɲiniyↄrↄ la’. Ni warilabaara kibaruyaw ma bↄ, kiliyan ka kan ka damakasi kɛ.,’’",
+    "topic": "merchants_and_payments",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Fili donna sanni min kɛcogo la bↄlↄlↄsira fɛ, n bɛ se k’o sanni dabila cogo di ?",
+    "answer": "‘’Feerekɛla ka kan ka wari laseginniko boloda a yɛrɛ fɛ yen ni wari laseginni ye nimↄrↄ la min ye wari ci.,’’",
+    "topic": "merchants_and_payments",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Ni n ye n ka sanniw kɛ yan, yali sↄngↄnↄgↄya bɛ se ka kɛ n ye wa ?",
+    "answer": "‘’ Tuma bɛɛ seli ɲɛnajɛ waatiw la, an bɛ ladiyaliwalew boloda min ye ‘Musaka fu’ ye ji ni kuran saraliko la.,’’",
+    "topic": "merchants_and_payments",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka bankijuru sarali lajↄ kalo kelen wa ?",
+    "answer": "’ ‘Juru sarali lajↄli ka waati kɛ’ o bɛ se ka kɛ siɲɛ kelen san kↄnↄ wa fo juruko ɲɛnabↄjɛkulu ka diɲɛ n’a ye, a musakabↄta yɛrɛ fana man ca.,’’",
+    "topic": "loans_and_credit",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "N bɛ se k’a dↄn cogo di ko n ni juru sↄrↄli ka kan ?",
+    "answer": "Aw garijɛgɛ diyali jate bɛ bↄ yↄrↄnin kelen ka kɛɲɛ n’aw ka sↄrↄ taabolo basigilen ye ani aw ka jurusaracogo kibaruya korↄw ye.,’’",
+    "topic": "loans_and_credit",
+    "category": "general_info"
+  },
+  {
+    "question": "Yali nↄgↄyasira bɛ banki ka tↄnↄ sↄrↄta la k’a ɲɛsin jurutala kuraw ma wa ?",
+    "answer": "‘’Tuma dↄw la, nↄgↄya bɛ kɛ kiliyan kuraw u ka jurumisɛnnin fↄlↄ tↄnↄko siratigɛ la n’o ye kɛmɛ kɛmɛ sara la 2 (2%) ye.,’’",
+    "topic": "loans_and_credit",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Lakↄli musakakow juru bɛ sↄrↄ banki la cogo di ?",
+    "answer": "‘’ Aw ka kan k’aw ka lakↄlidenyasɛbɛn jira walima kalanso ka sannifeeresɛbɛn labɛnnen dↄ walasa ka wari labↄ.,’’",
+    "topic": "loans_and_credit",
+    "category": "required_docs"
+  },
+  {
+    "question": "Yali kalo o kalo wari bɛ se ka lamara n ka kↄnti kↄnↄ a yɛrɛ ma cogo di ?",
+    "answer": "’N’aw taara ’bolodali’ ɲɛnabↄyↄrↄ la aw ka apilikasↄn kↄnↄ, aw bɛ se k’a boloda wari ka bↄ tuma bɛɛ aw ka kↄnti gansan kↄnↄ ka taa aw ka warilamarakↄnti kↄnↄ.,’’",
+    "topic": "investments_and_savings",
+    "category": "account_opening"
+  },
+  {
+    "question": "Musaka jumɛnw de bɛ bↄ walasa ka kɛ cakɛda dↄ niyↄrↄtigi ?",
+    "answer": "‘’Aw mana feere o feere walima sanni o sanni kɛ ni apilikasↄn ye bↄlↄlↄsira fɛ, kɛmɛ kɛmɛ sara la, 2 (2%) bɛ tigɛ ka bↄ aw kun sannifeere kɛyↄrↄ la aw ka apilikasↄn kↄnↄ,.’’",
+    "topic": "investments_and_savings",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "N bɛ se ka n ka musaka bↄlenw taasiraw n’u taabolow jateminɛ cogo di ?",
+    "answer": "‘’Kunnafoni walan min bɛ ‘warilabaara’ kunnafoni jira, o bɛ aw kunwari hakɛ jira tuma bɛɛ ani aw ka tↄnↄ sↄrↄlenw.,’’",
+    "topic": "investments_and_savings",
+    "category": "general_info"
+  },
+  {
+    "question": "Yali wari marali la, n bɛ se ka ladiyalikuruw sↄrↄ wa ?",
+    "answer": "‘’Awↄ, tuma o tuma aw mana d.2000 kelen o kelen mara ka se kalo saba ma, o bɛ se ka yɛlɛma ka kɛ kuruw ye minnu bɛ se ka bayɛlɛma ka kɛ telefↄnikeredi ye.,’’",
+    "topic": "investments_and_savings",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Munna n ka warimarakↄnti datugulen don ?",
+    "answer": "‘’Aw ka warilamarakↄnti bɛ se ka datugu n’aw ka bugunnatigɛ kunnafoniw lakurayalen tɛ walima ni bɛn kɛra waati kↄfↄlen min kan n’a y’a sↄrↄ o ma se.,",
+    "topic": "investments_and_savings",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Banki ka kariti mana tunu, o bɛ kofↄ cogo di ?",
+    "answer": "‘’Aw ka apilikasↄn kↄnↄ, yↄrↄ min bɛ yen ko ‘Ka kow kↄdↄn ɲↄgↄn ma’ ‘Karitiko’ ɲɛnabↄyↄrↄ la, o b’a to aw bɛ se k’aw ka kariti labaarali lajↄ sisan-sisan tile kuuru bɛɛ kↄnↄ.,’",
+    "topic": "security_and_limits",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Wari hakɛ min ni n man kan ka tɛmɛ o kan sanni na bↄlↄlↄ sanfɛ, dↄ bɛ se ka fara o hakɛ kan cogo di ?",
+    "answer": "‘’Aw ka karitiko koɲɛw ɲɛnabↄyↄrↄ la, a’ ye ‘Sarali bↄlↄlↄ sanfɛ’ koɲɛw labɛn ka ɲɛ walasa aw ka se k’aw ka tile musakabↄta dansigi.,’’",
+    "topic": "security_and_limits",
+    "category": "general_info"
+  },
+  {
+    "question": "Yali n bɛ kunnafoni sↄrↄ warilabaara bɛɛ kↄfɛ bↄlↄlↄ sanfɛ wa ?",
+    "answer": "‘’Awↄ, Kunnafonni surunnin bɛ ci aw ma tuma bɛɛ n’aw ye warilabaara o baara kɛ aw ka kↄnti kan, o mana kɛ wari hakɛ o hakɛ ye.,’’",
+    "topic": "security_and_limits",
+    "category": "general_info"
+  },
+  {
+    "question": "Yali n bɛ se ka hakililatigɛ sↄrↄ ko walejugukɛlaw tɛ degun lasen n ma bↄlↄlↄ sanfɛ wa ?",
+    "answer": "‘’An bɛ lakana cogoya dↄ k’aw ye ‘lakana dafalen’ d.100 de bɛ sara kalo o kalo o kunkↄrↄ min bɛ bila aw ka saralicogow nↄna, namara donna minnu na",
+    "topic": "security_and_limits",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "N ye n bolonↄ min don n ka apilikasↄn, o bɛ se ka bↄ yen cogo di ?",
+    "answer": "Taga ‘Lakanani’ la, o kɔfɛ ‘Biyometiriki’ la walasa ka bɔlɔlɔsira yamaruyalen ɲɛnabɔ walima k’u jɔsi ka bɔ i ka apilikasɔn kɔnɔ",
+    "topic": "security_and_limits",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Azansi min ka surun n na kosɛbɛ, o bɛ sↄrↄ min ?",
+    "answer": "Baara kɛ ni karti ye min bɛ ɲɔgɔn sɔrɔ ‘k’an lasɔrɔ’ walasa k’an ka azansiw ni waridimansin yɔrɔw dɔn weeti bɛɛ",
+    "topic": "customer_support_and_agencies",
+    "category": "general_info"
+  },
+  {
+    "question": "Bilasiralikɛla min ɲɛsinnen bɛ nafoloko ma, o bɛ se ka lasↄrↄ cogo di ?",
+    "answer": "‘RDV’ sugandi apilikasɔn kɔnɔ, i ka azansi ani i ka nali kun sugandi walasa ka dantigɛli sɔrɔ joona",
+    "topic": "customer_support_and_agencies",
+    "category": "account_opening"
+  },
+  {
+    "question": "Aw ka birow bɛ dayɛlɛ waati jumɛnw na ?",
+    "answer": "An ka azansiw bɛ aw bisimila ntɛnɛn fo juma k’a ta 8:00 na taa bila 17h30 la, ani sibiri sɔgɔma k’a daminɛ 9:00 na ka taa a bila 13:00 la",
+    "topic": "customer_support_and_agencies",
+    "category": "general_info"
+  },
+  {
+    "question": "Sɛbɛn jumɛnw ka kan ka ɲini walasa ka damakasi kɛ azansi la ?",
+    "answer": "Aw ka na n'aw ka bugunnatigɛsɛbɛn ye ani dalilu fɛn o fɛn bɛ tali kɛ aw ka gɛlɛya la (tike, ja talen).",
+    "topic": "customer_support_and_agencies",
+    "category": "required_docs"
+  },
+  {
+    "question": "Azansi ka baara cogoyaw bɛ se ka kↄlↄsi cogo jumɛn na ?",
+    "answer": "Lajɛli kelen-kelen bɛɛ kɔfɛ, i bɛna kunnafoni dɔ sɔrɔ min b’i wele k’i ka ko kɛlenw jateminɛ ni dolo 1 fo 5 ye.",
+    "topic": "customer_support_and_agencies",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Munna apilikasↄn suguya min bɛ ne bolo o tɛ sↄn bilen ?",
+    "answer": "Walasa k’i ka lakana sabati, an bɛ sɛbɛn kɔrɔw lajɔ. O kunnafoni kura tali ka bɔ Pilɛsitɔri/Play Store walama Apɔlisitɔri/App Store la.",
+    "topic": "account",
+    "category": "updates_and_features"
+  },
+  {
+    "question": "Ko kura jumɛnw bɛ sↄrↄ sisan apilikasↄnw na ?",
+    "answer": "3.0 ta bɛ dibi cogoya jira, saralisɛbɛn sɛgɛsɛgɛli ani wariw cili teliya ɲɛnabɔli.",
+    "topic": "account",
+    "category": "updates_and_features"
+  },
+  {
+    "question": "Yali ne bɛ se ka kɛ apilikasↄn kura ninnu ɲɛ n’u ɲɛbaliya lajɛbaga dↄ ye wa ?",
+    "answer": "Awɔ, i tɔgɔ sɛbɛn apilikasɔn sira fɛ walasa ka se a baarakɛlanw fɔlɔ la sanni u ka bɔ foroba la.",
+    "topic": "account",
+    "category": "updates_and_features"
+  },
+  {
+    "question": "Ni fili donna Nɛtifilikisi jaw sanni kɛtↄ la, n ka wari bɛ lasegin n ma cogo di ?",
+    "answer": "",
+    "topic": "merchants_and_payments",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Sɛbɛn jumɛnw b’a jira banki la k’i ka kan ka juru sↄrↄ tileyeelenkuranminɛnw sanni kama ?",
+    "answer": "I ka kan ka musaka jateminɛnen di min bɔra baara kɛbaa dɔ fɛ ani dalilu min b’a jira ko i ye yɔrɔ tigi ye walima ko i bɛ a kɔnɔ.",
+    "topic": "loans_and_credit",
+    "category": "required_docs"
+  },
+  {
+    "question": "Yali musakabↄ bɛ banki karitikalanmansin ladilanni na wa ?",
+    "answer": "I ka TPE ladonni siratigɛ la, o bɛ sara d.1000 kalo o kalo, o la, a bɛ se ka nɔnabila fu ni a tiɲɛna",
+    "topic": "merchants_and_payments",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Munna n kɛtↄ ka sanni kɛ, mansin ma sↄn n ka sannikɛkariti la ?",
+    "answer": "Dan bɛ o wari hakɛ la tile kɔnɔ e yɛrɛ ka lakana kama. Aw bɛ aw ka karti don a kɔnɔ ka aw ka kɔdi PINI sɛbɛn.",
+    "topic": "security_and_limits",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "N bɛ se ka jagomisɛnninkɛ dↄ denfaya sↄrↄ cogo di ?",
+    "answer": "Baara kɛ ni code ‘Bisinɛsi’ ye walasa ka jagokɛla dɔ wele. N’u ye kɔdi kuyɛri/QR dɔ sigi, i bɛna d.1000 farankan.",
+    "topic": "merchants_and_payments",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka wari lamaralen falen wari wɛrɛ la wa ?",
+    "answer": "Warimarakɔnti minnu bɛ kɛ ka kɛɲɛ ni sariya ye, olu bɛ kɛɲɛ ni sigida wari ye, nka an bɛ warimarakɔnti wɛrɛw ɲɛfɔ minnu bɛ kɛɲɛ ni jamana wɛrɛw ka wari cogoya ye ka kɛɲɛ ni sariya dɔw ye.",
+    "topic": "investments_and_savings",
+    "category": "general_info"
+  },
+  {
+    "question": "N bɛ se ka dↄn cogo di ko n ka telefↄni bɛ se ka baara kɛ ni ƐNƐFISE/NFC ye ?",
+    "answer": "Aw ye aw ka telefɔni n’a sɔgɔlen don ɛntɛrinɛti la. Ni ƐNƐFISE/NFC bɛ yen, i bɛ se ka wari sara ni i ka telefɔni ye.",
+    "topic": "merchants_and_payments",
+    "category": "updates_and_features"
+  },
+  {
+    "question": "Tuma bɛɛ, wari cili n ka kↄnti la n bɛ se k’o dabila cogo di ?",
+    "answer": "‘‘Wari bilali yɔrɔ la, wari bilali min bɛ tali kɛ o la, o sugandi ani ka ‘jɔsili’’ digi walasa ka wari bɔli nataw jɔ.",
+    "topic": "account",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Sɛbɛn jumɛnw ka kan ka ɲini jagokɛɲɔgɔnya jurukow kama ?",
+    "answer": "‘‘Aw mago bɛna kɛ mobili kɔmandi sɛbɛn na, aw ka kɔnti lahalaya sɛbɛn 6 labanw ani sɔrɔ sabatili daliluw sɛbɛn dɔ.",
+    "topic": "loans_and_credit",
+    "category": "required_docs"
+  },
+  {
+    "question": "N bɛ se ka n ka apilikasↄn lasegin a cogo kↄrↄ la cogo di k’a sↄrↄ n ka kunnafoniw ma tunu ?",
+    "answer": "Apilikasɔn in bɔ a kɔnɔ ka tila k’a sigi kokura. I ka kunnafoniw bɛ tali kɛ i ka kɔnti la, wa u bɛɛ bɛ segin u cogo kɔrɔ la n’i y’i sɔgɔ bɔlɔlɔsira kan.",
+    "topic": "account",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka sara sↄrↄ bↄlↄlↄsira fɛ wa ?",
+    "answer": "Hatɛ. I ka kɔnti nimɔrɔ di i ka patɔrɔn ma walasa k’i ka sara bila a kɔnɔ kalo o kalo.",
+    "topic": "mobile_money",
+    "category": "general_info"
+  },
+  {
+    "question": "Musaka jumɛn ka kan ka bↄ ni n ye wari labↄ banki ka waridimansin fɛ ?",
+    "answer": "Ni wari bɛ bɔ an yɛrɛ ka waribɔyɔrɔw la, o tɛ sara. Ni an jɛɲɔgɔn banki wɛrɛ ka waribɔyɔrɔ don, d.100.",
+    "topic": "account",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "N bɛ damakasi kɛ cogo di ni n y’a kↄlↄsi ko dↄ bɛ ka bↄ n ka keredi la n ɲinɛma ?",
+    "answer": "N’i ​​ye fili dɔ kɔlɔsi i ka tɔnɔ walima i ka juru sarali la, i bɛ se ka kuma ‘juruko fɔɲɔgɔnkɔ’ baarakɛyɔrɔ fɛ dɛmɛni baro sira fɛ.",
+    "topic": "loans_and_credit",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "N bɛ se ka n ka fↄrifɛ jenita dↄgↄyali fɛɛrɛ tigɛ cogo di ni n ka apilikasↄn ye ?",
+    "answer": "Jarataw labɛnyɔrɔ kɔnɔ, i ka sugandili kɛ walasa fↄrifɛ jenita dↄgↄya apilikasɔn labaarawaati la.",
+    "topic": "account",
+    "category": "updates_and_features"
+  },
+  {
+    "question": "Ne bɛ se ka jamajɛkɔnti dↄ dayɛlɛ k’a sɔrɔ n yɛrɛ tɛ a yɔrɔ la wa ?",
+    "answer": "Jamajɛkɔnti la, a tigiw bɛɛ ka kan ka kɛ a kɛnɛ kan diyagoya walasa ka bolonɔ bila sɛbɛnw na.",
+    "topic": "account",
+    "category": "account_opening"
+  },
+  {
+    "question": "Ne bɛ se ka juru sɔrɔ cogo di min tↄnↄ ye 0% ye ?",
+    "answer": "Nin labɛn yɔrɔ in bilalen bɛ minɛnw sanni kama an ka jɛɲɔgɔnw fɛ an ni minnu bɛ baara kɛ san laban sɔngɔbinw waati la.",
+    "topic": "loans_and_credit",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Kunnafoni minnu ɲɛfↄli bɛ kɛ jagofɛnw kan, n bɛ se ka olu nali lajɔ n kun cogo di ?",
+    "answer": "Taga ‘Dungɔlakunnafoni’’ yɔrɔ la ani ka ‘sɔngɔ binnen’ taamasiyɛn bɔ walasa ka lakana lasɔminiw dɔrɔn sɔrɔ",
+    "topic": "account",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Banki waribɔkariti bɛ ɲini cogo di ?",
+    "answer": "Taga ‘Kartiw’ yɔrɔ la, k’i ka dilancogo sugandi ani k’a laseyɔrɔ kunnafoni dafa walasa k’i ka karti sɔrɔ baarakɛdonya tile 5 kɔnɔ.",
+    "topic": "cards_and_digital_wallets",
+    "category": "account_opening"
+  },
+  {
+    "question": "Karti min waati tɛmɛna, o lakurayali musaka ye joli ye ?",
+    "answer": "I ka karti min waati tɛmɛna, o lakurayali bɛ kɛ fu; d. 300 dɔrɔn de bɛ sara a ciwari ye.",
+    "topic": "cards_and_digital_wallets",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Ne bɛ se ka karti dɔ dilan n ka sanniw kama bɔlɔlɔsira kan wa?",
+    "answer": "Awɔ, i bɛ se ka karti dɔ dilan waatinin apilikasɔn kɔnɔ walasa k’i ka wari sarataw lakana bɔlɔlɔsiraw kan minnu dɔnnen tɛ.",
+    "topic": "cards_and_digital_wallets",
+    "category": "general_info"
+  },
+  {
+    "question": "Ne bɛ se ka n ka karti gundolataamasiɲɛ (Kↄdi PINI) yɛlɛma cogo di ?",
+    "answer": "I bɛ se k’i ka kɔdi PINI lakurayi waati o waati apilikasɔn fɛ min bɛ ‘Karti lakanani’ yɔrɔ la k’a sɔrɔ i ma taa waridimansin na",
+    "topic": "cards_and_digital_wallets",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Karti min maralen bɛ n ka waribɔsɛbɛn kɔnɔ, n bɛ se k’o ka baara lajↄ cogo di ?",
+    "answer": "Taga i ka bugunnatigɛyɔrɔ la, ka ‘saracogo’ yɔrɔ sugandi ani ka i bolo digi a kan k’a sama ka taa i kinin fɛ i b’a fɛ ka karti min bɔ",
+    "topic": "cards_and_digital_wallets",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Baara bɛ kɛ ni ne ka kunnafoniw ye cogo di?",
+    "answer": "Baara bɛ kɛ ni kunnafoniw ye a’ ka kɔntu la ka dɔ fara a baara ɲɛ kan ka kɛɲɛ ni sariyaw ye minnu bɛ senna.",
+    "topic": "account",
+    "category": "legal_and_privacy"
+  },
+  {
+    "question": "N bɛ se ka baarakɛcogo sariyaw sɔrɔ min?",
+    "answer": "Sariyaw ni sariyakolow/CGU bɛ se ka lasɔrɔ tuma bɛɛ an ka ‘paramɛtiri’’ jukɔrɔ walima liyɛn fɛ an ka siti kan.",
+    "topic": "account",
+    "category": "legal_and_privacy"
+  },
+  {
+    "question": "N bɛ se ka n ka kunnafoni kɔrɔw dafalen lasↄrↄ cogo di?",
+    "answer": "I ka sɛbɛn ci an ka kunnafoniw lakanani ɲɛmɔgɔ ma imɛli/e-mail fɛ min kofɔlen bɛ an ka kunnafoniw lakanani sariya kɔnɔ.",
+    "topic": "account",
+    "category": "required_docs"
+  },
+  {
+    "question": "Ni wari dɔ tigɛra ne kun a yɛrɛma, n bɛ se ka damakasisɛbɛn jumɛn di k’o ɲɛnabↄ ?",
+    "answer": "I ka wari tigɛta sɛbɛn kopi ni juru sarali se dalilu di jurumantigi ma.",
+    "topic": "account",
+    "category": "required_docs"
+  },
+  {
+    "question": "Yala ne bɛ se ka n ka kɔnti APƆLI Peyi/Apple Pay walima Gugↄli Peyi /Google Pay don ɲɔgɔn na wa?",
+    "answer": "Hatɛ. I ka bɔlɔlɔsira dayɛlɛ i ka telefɔni na ka banki karti sɛgɛsɛgɛ/scanner walasa k’a fara a kan o yɔrɔnin bɛɛ.",
+    "topic": "cards_and_digital_wallets",
+    "category": "updates_and_features"
+  },
+  {
+    "question": "N ka kan ka mun kɛ ni waridimansin ye n ka kariti kunu ?",
+    "answer": "Wari bɔwaati ni waridimansin sigiyɔrɔ sɛbɛn, o kɔ, i ka anw lasɔrɔ joona walasa ka karti lajɔ ani ka laɲini kɛ ka karti wɛrɛ bila a nɔ na.",
+    "topic": "cards_and_digital_wallets",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Ne bɛ se ka taama dɛmɛw sɔrɔ ni n ka kariti ye cogo di ?",
+    "answer": "Ni i ye i ka dugutaabiye sara ni i ka karti ye, i bɛ taama asiransi ni segin dɛmɛni baara bɛ kɛ a yɛrɛma.",
+    "topic": "cards_and_digital_wallets",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Yali n bɛ se ka n ka sara kunnafoni ɲɛmadogo ekaran kan wa ?",
+    "answer": "Awɔ, i ka ‘Gundolako’ labaara baaraw labɛnyɔrɔ kɔnɔ walasa ka dolow bila i ka wari hakɛ jiracogo nɔ na.",
+    "topic": "security_and_limits",
+    "category": "updates_and_features"
+  },
+  {
+    "question": "N bɛ se ka banki baarakɛla dↄ ka sigannawale ɲɛfɔ cogo di ?",
+    "answer": "Baara kɛ ni ‘Dantɛmɛwale’ sɛbɛn ye min bɛ dɛmɛ yɔrɔ la walasa k’a tigi ka nimɔrɔ ni ko kɛlen kunnafoni ci an ma.",
+    "topic": "customer_support_and_agencies",
+    "category": "troubleshooting"
+  },
+  {
+    "question": "Ne bɛ se k’a dɔn cogo di ko n bɛ ka sonya ?",
+    "answer": "Aw k’a kɔlɔsi ko an tɛna aw ka gundo kɔdi ɲini abada batakisira/SMS walima telefɔni fɛ. Ni sigana dɔ b’i la, i kana liyɛn si digi.",
+    "topic": "security_and_limits",
+    "category": "general_info"
+  },
+  {
+    "question": "Ni wari t’i ka kↄnti la, i mana wari ta banki la k’a sↄrↄ a ma yamaruya, o ɲangiliw ye jumɛnw ye ?",
+    "answer": "I mana wari ta banki la k’a sↄrↄ a ma yamaruya, dɔ bɛ fara aziyo kan, ani wari sarata wɛrɛw ka da i ka kɛwale in kan.",
+    "topic": "loans_and_credit",
+    "category": "fees_and_tariffs"
+  },
+  {
+    "question": "Sarali bɛ lajɔ cogo di n’i bɛ jamana kɔkan ?",
+    "answer": "I ka karti sigicogo la, i bɛ se ka ‘ɛntɛrinasɔnnali/International’ yɔrɔ lajɛ walasa ka dan sigi karti ka baara la i ka jamana na.",
+    "topic": "security_and_limits",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "Yali n bɛ se ka juru sɔrɔ ka n ka kɔɲɔ kɛ wa ?",
+    "answer": "Awɔ, an ka ‘juru suguya dɔ bɛ yen ko ‘’PPP’’, o b’a to i bɛ se ka denbaya koɲɛw musaka sɔrɔ n’i y’a jate mumɛ bɛɛ fara ɲɔgɔn kan walima  a nafolo bolodalen jira.",
+    "topic": "loans_and_credit",
+    "category": "account_opening"
+  },
+  {
+    "question": "Ne bɛ se ka n ka banki warisarasɛbɛnw ta bɔlɔlɔsira fɛ cogo di ?",
+    "answer": "Taga ‘Sɛbɛnw’ yɔrɔ la, o kɔfɛ taa ‘Musaka ni Komisiyɔn’ walasa k’i ka kalo saralisɛbɛnw ta bɔlɔlɔsira kan minnu sɛgɛsɛgɛra i ka jatebɔ kama",
+    "topic": "account",
+    "category": "general_info"
+  },
+  {
+    "question": "Ne bɛ se ka n ka dagayɔrɔ lajɛyalisɛbɛn lakuraya cogo di ?",
+    "answer": "Aw ye aw ka kuran walima ji wari kura sɛgɛsɛgɛ k’a ɲɛsin apilikasɔn (application) ka jatalan ma, ‘i ka kunnafoni yɔrɔ la.",
+    "topic": "account",
+    "category": "required_docs"
+  },
+  {
+    "question": "Tɔgɔ bɛ sɛbɛn kalo o kalo kunfɛsugandili la cogo di ?",
+    "answer": "Wari ci o ci n’a ka ca ni d.1 000 ye, o bɛ dɔ fara i garisɛgɛ kan kalo o kalo sugandili la.",
+    "topic": "account",
+    "category": "rewards_and_promotions"
+  },
+  {
+    "question": "Ne bɛ se ka n ka kɔnti yɛlɛma banki azansi wɛrɛ la cogo di ?",
+    "answer": "Awɔ, i ka sɛbɛnw yɛlɛmani bɛ kɛ fu wa bɛ se ka kɛ intɛrinɛti fɛ ; i ka kɔnti n’i ka kariti nimɔrɔ tɛ yɛlɛma ;",
+    "topic": "customer_support_and_agencies",
+    "category": "general_info"
+  },
+  {
+    "question": "Fɛɛrɛ kura minnu tara ka kunnafoni to gundo la, munna ne ka kan ka sɔn o ma ?",
+    "answer": "Fɛɛrɛ lakurayali b’a jira ko an bɛ kakunnafoniw lakanani sariya labanw labato i ka gundow lakanani kama bɔlɔlɔsira kan.",
+    "topic": "account",
+    "category": "legal_and_privacy"
+  },
+  {
+    "question": "Kariti lakurayali a yɛrɛma, o bɛ se ka lajɔ cogo di ?",
+    "answer": "Aw bɛ se ka kuma kiliyanw dɛmɛbagaw fɛ kalo 2 ni kɔ ka kɔn a waati dafalen ɲɛ walasa ka ɲini ka aw ka kari kurayali lajɔ..\",",
+    "topic": "cards_and_digital_wallets",
+    "category": "cancellation_and_refunds"
+  },
+  {
+    "question": "N’i ye waribɔsɛbɛn di k’a sↄrↄ wari t’i ka kↄnti la,i ka kan ka musaka jumɛnw bɔ ni ban kɛra a la ?",
+    "answer": "Ni ban kɛra waribɔsɛbɛn na, i ka kan ka d.5 000 sara ani k’a ɲɛfɔli diyogaya bankisoba ye.",
+    "topic": "loans_and_credit",
+    "category": "fees_and_tariffs"
+  }
+]
