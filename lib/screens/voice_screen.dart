@@ -1,9 +1,9 @@
 import 'dart:async';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../models/voice_intent.dart';
 import '../services/action_handler.dart';
 import '../services/service_locator.dart';
+import 'manual_transfer_screen.dart'; // ✅ maintenant utilisé
 
 enum _VoiceState { idle, recording, transcribing, interpreting, result, error }
 
@@ -17,7 +17,6 @@ class VoiceScreen extends StatefulWidget {
 
 class _VoiceScreenState extends State<VoiceScreen>
     with SingleTickerProviderStateMixin {
-  // ✅ FIX — Séparation stricte NUMÉRO / NOM
   static const _phoneKeys = [
     'recipient_phone',
     'phone',
@@ -62,7 +61,6 @@ class _VoiceScreenState extends State<VoiceScreen>
 
   // ---------- Helpers ----------
 
-  // ✅ FIX — Tolérant à la casse et aux variantes d'action
   bool _isTransfer(VoiceIntent intent) {
     final action = intent.action.toLowerCase();
     final scenario = intent.scenario.toLowerCase();
@@ -83,7 +81,7 @@ class _VoiceScreenState extends State<VoiceScreen>
     return 'Une erreur est survenue. Veuillez réessayer.';
   }
 
-  // ---------- Pipeline vocal réel ----------
+  // ---------- Pipeline vocal ----------
 
   Future<void> _startRecording() async {
     final locator = ServiceLocator.instance;
@@ -91,8 +89,7 @@ class _VoiceScreenState extends State<VoiceScreen>
     if (!locator.slu.isInitialized) {
       setState(() {
         _state = _VoiceState.error;
-        _errorMessage =
-            'Les modèles vocaux ne sont pas encore prêts. '
+        _errorMessage = 'Les modèles vocaux ne sont pas encore prêts. '
             'Vérifiez votre connexion et réessayez dans quelques instants.';
       });
       return;
@@ -134,7 +131,6 @@ class _VoiceScreenState extends State<VoiceScreen>
       final intent = await locator.slu.parseIntent(path);
       if (!mounted) return;
 
-      // ✅ FIX — Debug exhaustif
       debugPrint('[VOICE] scenario="${intent.scenario}" '
           'action="${intent.action}"');
       debugPrint('[VOICE] entityMap=${intent.entityMap}');
@@ -142,7 +138,6 @@ class _VoiceScreenState extends State<VoiceScreen>
       debugPrint('[VOICE] phone=${intent.entityFirst(_phoneKeys)}');
       debugPrint('[VOICE] name=${intent.entityFirst(_nameKeys)}');
 
-      // Pour un transfert : préparer et valider le brouillon tout de suite.
       TransferDraft? draft;
       if (_isTransfer(intent)) {
         final rawAmount = intent.entityMap['amount'] ?? '';
@@ -222,7 +217,6 @@ class _VoiceScreenState extends State<VoiceScreen>
 
     try {
       if (_isTransfer(intent)) {
-        // Sécurité : recréer le brouillon s'il manque.
         final draft = _draft ??
             await locator.actions.prepareTransfer(
               action: intent.action,
@@ -257,23 +251,50 @@ class _VoiceScreenState extends State<VoiceScreen>
     });
   }
 
-  void _openManualEntry() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: const Text('Saisie manuelle — bientôt disponible'),
-        backgroundColor: const Color(0xFF1E293B),
-        behavior: SnackBarBehavior.floating,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-        margin: const EdgeInsets.all(16),
+  // ✅ FIX — Ouvre ManualTransferScreen et exécute le draft retourné
+  Future<void> _openManualEntry() async {
+    final draft = await Navigator.of(context).push<TransferDraft>(
+      MaterialPageRoute(
+        builder: (_) => ManualTransferScreen(
+          initialAmount: _intent?.entityMap['amount'],
+          initialTarget: _intent?.entityFirst(_phoneKeys),
+          initialAction: _intent?.action ?? 'transfer_to_momo',
+        ),
       ),
     );
+    if (!mounted || draft == null) return;
+
+    _busy = true;
+    setState(() => _state = _VoiceState.interpreting);
+    try {
+      final intent = _intent ??
+          VoiceIntent(
+            scenario: 'Operation',
+            action: draft.action,
+            entities: [
+              VoiceEntity(type: 'amount', filler: draft.amount.toString()),
+              VoiceEntity(type: 'recipient_phone', filler: draft.target),
+            ],
+          );
+      await ServiceLocator.instance.actions.execute(intent, transfer: draft);
+      if (!mounted) return;
+      Navigator.of(context).pop();
+    } catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _state = _VoiceState.error;
+        _errorMessage = _messageOf(e);
+      });
+    } finally {
+      _busy = false;
+    }
   }
 
   String _formatAmount(int amount) {
     return amount.toString().replaceAllMapped(
-      RegExp(r'(\d)(?=(\d{3})+(?!\d))'),
-      (m) => '${m[1]} ',
-    );
+          RegExp(r'(\d)(?=(\d{3})+(?!\d))'),
+          (m) => '${m[1]} ',
+        );
   }
 
   // ---------- UI ----------
@@ -374,7 +395,6 @@ class _VoiceScreenState extends State<VoiceScreen>
                             textAlign: TextAlign.center,
                           ),
                           const SizedBox(height: 16),
-
                           if (_state != _VoiceState.idle) ...[
                             Container(
                               width: double.infinity,
@@ -433,13 +453,11 @@ class _VoiceScreenState extends State<VoiceScreen>
                                 ),
                               ),
                           ],
-
                           if (_state == _VoiceState.result &&
                               _intent != null) ...[
                             const SizedBox(height: 16),
                             _buildResultCard(_intent!),
                           ],
-
                           if (isIdle) ...[
                             const SizedBox(height: 12),
                             _buildPrivacyNote(),
@@ -448,7 +466,6 @@ class _VoiceScreenState extends State<VoiceScreen>
                       ),
                     ),
                   ),
-
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
                     child: Column(
@@ -571,12 +588,10 @@ class _VoiceScreenState extends State<VoiceScreen>
           : (intent.amountCfa > 0
               ? '${_formatAmount(intent.amountCfa)} FCFA'
               : (intent.entityMap['amount'] ?? '—'));
-      final kind = intent.action == 'transfer_to_momo'
-          ? 'Mobile Money'
-          : 'Compte';
+      final kind =
+          intent.action == 'transfer_to_momo' ? 'Mobile Money' : 'Compte';
       final dest = draft?.target ?? intent.entityFirst(_phoneKeys) ?? '—';
       subtitle = 'Vers ($kind): $dest';
-      // ✅ FIX — Nom via _nameKeys (plus fiable)
       final name = intent.entityFirst(_nameKeys);
       if (name != null && name.isNotEmpty && name != dest) {
         extra = 'Bénéficiaire: $name';
@@ -879,7 +894,8 @@ class _BlinkingCaretState extends State<_BlinkingCaret>
 
 extension VoiceIntentExt on VoiceIntent {
   int get amountCfa =>
-      int.tryParse((entityMap['amount'] ?? '0').replaceAll(RegExp(r'\s'), '')) ??
+      int.tryParse(
+          (entityMap['amount'] ?? '0').replaceAll(RegExp(r'\s'), '')) ??
       0;
 
   String get recipientName => entityMap['recipient'] ?? '—';
