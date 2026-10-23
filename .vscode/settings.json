@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/john/Bureau/kumakan_flutter/kumakan_flutter/linux",
+    "python.analysis.extraPaths": [
+        "./app/src"
+    ]
+}

@@ -1,0 +1,103 @@
+# ============================================================================
+# BAM King / Kumakan — .gitignore
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# Flutter / Dart
+# ---------------------------------------------------------------------------
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+app.*.symbols
+app.*.map.json
+
+# ---------------------------------------------------------------------------
+# Android
+# ---------------------------------------------------------------------------
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/upload-keystore.jks
+android/app/*.keystore
+android/app/*.jks
+*.apk
+*.aab
+*.ap_
+*.dex
+android/build/
+
+# ---------------------------------------------------------------------------
+#  Firebase
+# ---------------------------------------------------------------------------
+android/app/google-services.json
+lib/firebase_options.dart
+.service-keys/
+*.firebase-adminsdk*.json
+
+# ---------------------------------------------------------------------------
+ Modèles ONNX (téléchargés depuis Firebase Storage)
+# ---------------------------------------------------------------------------
+local_models/
+*.onnx
+*.pt
+*.bin
+*.tflite
+
+# ---------------------------------------------------------------------------
+#  Python embarqué (Serious Python)
+# ---------------------------------------------------------------------------
+app/app.zip
+app/app.zip.hash
+build/site-packages/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ---------------------------------------------------------------------------
+# IDE / Éditeurs
+# ---------------------------------------------------------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ---------------------------------------------------------------------------
+# Système
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.log
+
+# ---------------------------------------------------------------------------
+# Divers
+# ---------------------------------------------------------------------------
+*.class
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+# Firebase CLI config (généré par flutterfire configure)
+firebase.json
+.firebaserc
+lib/firebase.json
