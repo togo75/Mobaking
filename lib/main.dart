@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -10,17 +11,22 @@ import 'widgets/device_frame.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-
   try {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
     debugPrint('[BOOTSTRAP] Firebase initialized');
+
+    // FIX — Activer la persistance Firestore
+    FirebaseFirestore.instance.settings = const Settings(
+      persistenceEnabled: true,
+      cacheSizeBytes: Settings.CACHE_SIZE_UNLIMITED,
+    );
+    debugPrint('[BOOTSTRAP] Firestore persistence enabled');
   } catch (e, st) {
     debugPrint('[BOOTSTRAP] Firebase init FAILED: $e');
     debugPrintStack(stackTrace: st);
   }
-
 
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(

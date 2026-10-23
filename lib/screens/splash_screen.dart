@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_theme.dart';
 import '../services/service_locator.dart';
+import '../services/model_download_service.dart';
 import 'app_shell.dart';
 import 'login_screen.dart';
-
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -135,7 +135,8 @@ class _SplashScreenState extends State<SplashScreen>
               child: Stack(
                 alignment: Alignment.center,
                 children: [
-                  _pulseRing(t, delay: 0.0, maxSize: 176, color: AppColors.gold500),
+                  _pulseRing(t,
+                      delay: 0.0, maxSize: 176, color: AppColors.gold500),
                   _pulseRing(
                     (t + 0.5) % 1.0,
                     delay: 0.0,
@@ -185,7 +186,8 @@ class _SplashScreenState extends State<SplashScreen>
     );
   }
 
-  Widget _pulseRing(double t, {required double delay, required double maxSize, required Color color}) {
+  Widget _pulseRing(double t,
+      {required double delay, required double maxSize, required Color color}) {
     final size = 118 + (maxSize - 118) * t;
     final opacity = (1 - t).clamp(0.0, 1.0) * 0.35;
     return Container(
@@ -307,6 +309,16 @@ class _SplashScreenState extends State<SplashScreen>
                   ),
                 ),
               ),
+
+              //  FIX — Indicateur de téléchargement des modèles
+              //    Affiché en permanence tant que le téléchargement n'est pas terminé
+              Positioned(
+                bottom: 130,
+                left: 24,
+                right: 24,
+                child: _buildModelProgress(),
+              ),
+
               if (!_checkingSession)
                 Positioned(
                   bottom: 48,
@@ -365,7 +377,8 @@ class _SplashScreenState extends State<SplashScreen>
                                       ],
                                     ),
                                     border: Border.all(
-                                      color: Colors.white.withValues(alpha: 0.15),
+                                      color:
+                                          Colors.white.withValues(alpha: 0.15),
                                       width: 1,
                                     ),
                                   ),
@@ -401,5 +414,142 @@ class _SplashScreenState extends State<SplashScreen>
         ),
       ),
     );
+  }
+
+  // ✅ FIX — Indicateur de téléchargement des modèles
+  Widget _buildModelProgress() {
+    final service = ServiceLocator.instance.models;
+    return AnimatedBuilder(
+      animation: service,
+      builder: (context, _) {
+        // Si les modèles sont prêts, on cache l'indicateur
+        if (service.isReady) return const SizedBox.shrink();
+
+        final progress = service.progress.clamp(0.0, 1.0);
+        final percent = (progress * 100).toStringAsFixed(0);
+        final mb = (service.downloadedBytes / 1024 / 1024).toStringAsFixed(1);
+        final totalMb = (service.totalBytes / 1024 / 1024).toStringAsFixed(0);
+
+        return Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: Colors.white.withValues(alpha: 0.08),
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(
+              color: Colors.white.withValues(alpha: 0.12),
+              width: 1,
+            ),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // Titre
+              Row(
+                children: [
+                  const Icon(
+                    Icons.download_rounded,
+                    size: 16,
+                    color: Colors.white,
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      'Préparation des modèles vocaux',
+                      style: AppText.sans(
+                        size: 12,
+                        weight: FontWeight.w600,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                  Text(
+                    '$percent%',
+                    style: AppText.sans(
+                      size: 13,
+                      weight: FontWeight.w700,
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+
+              // Barre de progression
+              ClipRRect(
+                borderRadius: BorderRadius.circular(6),
+                child: LinearProgressIndicator(
+                  value: progress,
+                  minHeight: 6,
+                  backgroundColor: Colors.white.withValues(alpha: 0.15),
+                  valueColor: const AlwaysStoppedAnimation(Colors.white),
+                ),
+              ),
+              const SizedBox(height: 8),
+
+              // Statut détaillé
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Flexible(
+                    child: Text(
+                      _modelStatusText(service),
+                      style: AppText.sans(
+                        size: 10.5,
+                        color: Colors.white.withValues(alpha: 0.7),
+                        weight: FontWeight.w500,
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Text(
+                    '$mb / $totalMb MB',
+                    style: AppText.sans(
+                      size: 10.5,
+                      color: Colors.white.withValues(alpha: 0.7),
+                      weight: FontWeight.w500,
+                    ),
+                  ),
+                ],
+              ),
+
+              // Erreur éventuelle
+              if (service.error != null) ...[
+                const SizedBox(height: 8),
+                Text(
+                  'Erreur : ${service.error}',
+                  style: AppText.sans(
+                    size: 10.5,
+                    color: const Color(0xFFFCA5A5),
+                    weight: FontWeight.w500,
+                  ),
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ],
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  String _modelStatusText(ModelDownloadService s) {
+    if (s.error != null) return 'Échec du téléchargement';
+    if (s.isReady) return 'Prêt';
+    final label = s.currentLabel ?? '';
+    switch (s.operation) {
+      case 'Checking':
+        return 'Vérification : $label';
+      case 'Downloading':
+        return 'Téléchargement : $label';
+      case 'Verifying':
+        return 'Vérification : $label';
+      case 'Ready':
+        return 'Prêt';
+      default:
+        return label;
+    }
   }
 }
